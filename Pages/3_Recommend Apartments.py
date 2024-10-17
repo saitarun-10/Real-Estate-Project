@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-st.set_page_config(page_title="Recommend Apartments")
+st.title("Recommend Apartments")
 
 # Load the data and similarity matrices
 location_df = pickle.load(open('location_distance.pkl', 'rb'))
