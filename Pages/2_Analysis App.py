@@ -7,7 +7,6 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.set_page_config(page_title="Property Analytics")
 st.title('Analytics')
 
 new_df = pd.read_csv('datasets/data_viz1.csv')
