@@ -9,8 +9,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 import statsmodels.api as sm
 
-st.set_page_config(page_title="Insights Module")
-st.title('Insights')
+st.title("Insights")
 
 # Load the dataset
 df = pd.read_csv('datasets/gurgaon_properties_post_feature_selection_v2.csv').drop(columns=['store room','floor_category','balcony'])
