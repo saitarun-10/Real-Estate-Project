@@ -1,8 +1,6 @@
 import streamlit as st
 import os
 
-st.write("Current working directory:", os.getcwd())
-st.write("Files in current directory:", os.listdir())
 
 st.set_page_config(
     page_title="Gurgaon Real Estate Analytics App",
