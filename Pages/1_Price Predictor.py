@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import numpy as np
 
-st.set_page_config(page_title="Price Predictor")
+st.title("Price Predictor")
 
 #property_type sector bedRoom bathroom balcony agePossession built_up_area	servant room store room furnishing_type luxury_category
 # floor_category
