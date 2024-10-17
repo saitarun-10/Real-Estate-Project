@@ -1,9 +1,9 @@
-# Project Title: Gurgaon Real Estate Insight Hub
+# Project Title: Real Estate Insights Hub
 This project leverages data science techniques to provide insights, predictions, and recommendations in the real estate domain. It encompasses data gathering, cleaning, exploratory analysis, modeling, and deployment of a user-friendly application.
 
 Key Phases:
 1. Data Gathering:
-Self-scraped real estate data from the 99acres website.
+Web-scraped real estate data.
 
 2. Data Cleaning & Merging:
 Handled missing values and ensured consistency by merging data on houses and flats.
