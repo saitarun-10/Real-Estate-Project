@@ -7,7 +7,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.title('Analytics')
+st.title("Analytics")
 
 new_df = pd.read_csv('datasets/data_viz1.csv')
 feature_text = pickle.load(open('feature_text.pkl','rb'))
